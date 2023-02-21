@@ -1,11 +1,11 @@
 terraform {
   backend "remote" {
-    #hostname = "app.terraform.io"
+    hostname = "app.terraform.io"
     organization = "Sahil123"
     workspaces {
       name = "gh-actions-demo"
     }
-    token = "PF5wkpybT8cTew.atlasv1.L8Tzr0VAJaLGbd2zWSome8uj2vhREz6ANjOf2sdhxXyNTjVXJnFRwhdrb97UyjYOJiI"
+    #token = "PF5wkpybT8cTew.atlasv1.L8Tzr0VAJaLGbd2zWSome8uj2vhREz6ANjOf2sdhxXyNTjVXJnFRwhdrb97UyjYOJiI"
   }
 }
   
