@@ -8,13 +8,6 @@ terraform {
   }
 }
 
-
-# .terraformrc
-credentials "app.terraform.io" {
-  token = "ryqu16NPtfdlog.atlasv1.rIzChEeqHJuoF2Cmlt7Zphnkuo6plQX1YUMjITaAFuo063lyI7oSm7NNXXIkWdVgBsU"
-  # this being a team or user token (not an organisation token)
-}
-  
   terraform {
   required_providers {
     aws = {
