@@ -6,11 +6,9 @@
     workspaces {
       name = "sahil"
     }
-<<<<<<< HEAD
-    
   }
 }*/
- 
+  
   terraform {
   required_providers {
     aws = {
@@ -21,11 +19,8 @@
 }
 
 provider "aws" {
-  #profile = "default"
-  access_key="AKIATNOY6IAKOPJ3FQQG"
-  secret_key="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"
+  profile = "default"
   region = "ap-south-1"
-
 }
 
 resource "aws_instance" "vm-web" {
