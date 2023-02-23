@@ -22,8 +22,8 @@
 
 provider "aws" {
   profile = "default"
-  AWS_ACCESS_KEY_ID="AKIATNOY6IAKOPJ3FQQG"
-  AWS_SECRET_ACCESS_KEY="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"
+  #AWS_ACCESS_KEY_ID="AKIATNOY6IAKOPJ3FQQG"
+  #AWS_SECRET_ACCESS_KEY="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"
   region = "ap-south-1"
 
 }
