@@ -19,7 +19,7 @@
 }
 
 provider "aws" {
-  profile = "default"
+  #profile = "default"
   access_key="AKIATNOY6IAKLTKGUCLL"
   secret_key="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"
   region = "ap-south-1"
