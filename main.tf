@@ -5,6 +5,7 @@ terraform {
     workspaces {
       name = "sahil"
     }
+    token="UKqmOZ5ZzZiKVw.atlasv1.x7QhG846ciHMLHy4b9PvpxRNNX6eIG8PNzuDUVXIflVz6e0Gk9Zs2HZ370p6v6lRqqU"
   }
 }
 
