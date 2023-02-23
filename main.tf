@@ -1,12 +1,12 @@
-/*terraform {
+terraform {
   backend "remote" {
     hostname = "app.terraform.io"
     organization = "Sahil123"
     workspaces {
-      name = "gh-actions-demo"
+      name = "sahil"
     }
   }
-}*/
+}
 
   terraform {
   required_providers {
