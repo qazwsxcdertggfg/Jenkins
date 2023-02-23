@@ -22,8 +22,8 @@
 
 provider "aws" {
   #profile = "default"
-  access_key=AKIATNOY6IAKOPJ3FQQG
-  secret_key=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
+  access_key="AKIATNOY6IAKOPJ3FQQG"
+  secret_key="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"
   region = "ap-south-1"
 
 }
