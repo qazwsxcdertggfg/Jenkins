@@ -2,21 +2,12 @@ terraform {
   backend "remote" {
     hostname = "app.terraform.io"
     organization = "Sahil123"
+    token = "5ZyyIJyWOVVn1w.atlasv1.GvyeuMQzz9EG5hZR4fyuXOCixd1MhS47FMupwSCPwJTEfHEiARyGONl8zzIaNnzKTZE"
     workspaces {
       name = "sahil"
     }
-    #token = "5ZyyIJyWOVVn1w.atlasv1.GvyeuMQzz9EG5hZR4fyuXOCixd1MhS47FMupwSCPwJTEfHEiARyGONl8zzIaNnzKTZE"
   }
-}
-
-{
-  "credentials": {
-    "app.terraform.io": {
-      "token": "5ZyyIJyWOVVn1w.atlasv1.GvyeuMQzz9EG5hZR4fyuXOCixd1MhS47FMupwSCPwJTEfHEiARyGONl8zzIaNnzKTZE"
-    }
-  }
-}
-  
+}  
   terraform {
   required_providers {
     aws = {
