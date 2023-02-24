@@ -2,7 +2,7 @@ terraform {
   backend "remote" {
     hostname = "app.terraform.io"
     organization = "Sahil123"
-    #token = "ryqu16NPtfdlog.atlasv1.rIzChEeqHJuoF2Cmlt7Zphnkuo6plQX1YUMjITaAFuo063lyI7oSm7NNXXIkWdVgBsU"
+    token = "5ZyyIJyWOVVn1w.atlasv1.GvyeuMQzz9EG5hZR4fyuXOCixd1MhS47FMupwSCPwJTEfHEiARyGONl8zzIaNnzKTZE"
     workspaces {
       name = "sahil"
     }
