@@ -18,6 +18,10 @@ terraform {
   }
 }
 
+credentials "app.terraform.io" {
+  token = "5ZyyIJyWOVVn1w.atlasv1.GvyeuMQzz9EG5hZR4fyuXOCixd1MhS47FMupwSCPwJTEfHEiARyGONl8zzIaNnzKTZE"
+}
+
 provider "aws" {
   #profile = "default"
   #access_key="AKIATNOY6IAKLTKGUCLL"
