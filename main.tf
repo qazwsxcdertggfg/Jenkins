@@ -22,7 +22,7 @@ provider "aws" {
   #profile = "default"
   #access_key="AKIATNOY6IAKLTKGUCLL"
   #secret_key="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"
-  region = "ap-south-1"
+  #region = "ap-south-1"
 }
 
 resource "aws_instance" "vm-web" {
