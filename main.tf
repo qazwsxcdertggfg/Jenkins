@@ -1,13 +1,3 @@
-/*terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "Sahil123"
-    token = "5ZyyIJyWOVVn1w.atlasv1.GvyeuMQzz9EG5hZR4fyuXOCixd1MhS47FMupwSCPwJTEfHEiARyGONl8zzIaNnzKTZE"
-    workspaces {
-      name = "sahil"
-    }
-  }
-}*/ 
   terraform {
   required_providers {
     aws = {
