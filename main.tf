@@ -7,10 +7,10 @@
   }
 }
 provider "aws" {
-  #profile = "default"
-  #access_key="AKIATNOY6IAKLTKGUCLL"
-  #secret_key="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"
-  #region = "ap-south-1"
+  profile = "default"
+  access_key="AKIATNOY6IAKMVBJ556C"
+  secret_key="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"
+  region = "ap-south-1"
 }
 
 resource "aws_instance" "vm-web" {
